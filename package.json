@@ -1,0 +1,37 @@
+{
+  "name": "tailwind-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@formkit/auto-animate": "^0.8.2",
+    "@radix-ui/react-collapsible": "^1.0.3",
+    "@radix-ui/react-scroll-area": "^1.0.5",
+    "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-tabs": "^1.0.4",
+    "framer-motion": "^11.0.28",
+    "lucide-react": "^0.368.0",
+    "next": "14.2.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwind-variants": "^0.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.1",
+    "eslint-config-prettier": "^9.1.0",
+    "postcss": "^8",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.13",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
